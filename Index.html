@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,
+                   maximum-scale=1.0, user-scalable=no">
+
+    <meta name="theme-color" content="#030014">
+
+    <title>Mi Galaxia ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <canvas id="galaxy"></canvas>
+
+    <!-- INTRO -->
+    <section id="intro" class="screen active">
+
+        <div class="intro-stars"></div>
+
+        <div class="intro-content">
+
+            <div class="mini-heart">♥</div>
+
+            <h1>MI GALAXIA</h1>
+
+            <p class="subtitle">
+                LOVE UNIVERSE
+            </p>
+
+            <p class="description">
+                Un pequeño universo creado
+                para guardar momentos especiales.
+            </p>
+
+            <button id="enterButton">
+                🚀 ENTRAR AL UNIVERSO
+            </button>
+
+        </div>
+
+        <div class="hint">
+            Toca la pantalla para comenzar ✦
+        </div>
+
+    </section>
+
+
+    <!-- GALAXIA -->
+    <section id="universe" class="screen">
+
+        <div class="hud">
+
+            <div class="brand">
+                ❤️ MI GALAXIA
+            </div>
+
+            <div class="stats">
+
+                <span>
+                    ❤️ <b id="loveValue">100</b>%
+                </span>
+
+                <span>
+                    ⭐ <b id="memoryValue">0</b>/5
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div id="planetInfo" class="planet-info">
+
+            <button id="closeInfo">
+                ×
+            </button>
+
+            <div id="planetIcon">
+                🪐
+            </div>
+
+            <h2 id="planetTitle">
+                Planeta
+            </h2>
+
+            <p id="planetDescription">
+                Explora este lugar.
+            </p>
+
+            <button id="visitPlanet">
+                EXPLORAR ✦
+            </button>
+
+        </div>
+
+
+        <div class="bottom-ui">
+
+            <div class="instruction">
+                Arrastra para explorar la galaxia
+            </div>
+
+            <button id="homeButton">
+                ⌂
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- SECCIÓN -->
+    <section id="sectionScreen" class="screen section-screen">
+
+        <button id="backGalaxy" class="back-button">
+            ← GALAXIA
+        </button>
+
+        <div class="section-content">
+
+            <div id="sectionIcon"
+                 class="section-icon">
+                ❤️
+            </div>
+
+            <h1 id="sectionTitle">
+                Mi Galaxia
+            </h1>
+
+            <p id="sectionText">
+                Bienvenido.
+            </p>
+
+            <div id="memoryList"
+                 class="memory-list">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
